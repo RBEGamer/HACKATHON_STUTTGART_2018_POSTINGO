@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<header>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<meta http-equiv="refresh" content="1" >
+</header>
+<head>
+<title>Page Title</title>
+<style>
+#rectanglerosa {
+    width:295px;
+    height:305px;
+    background:#FFF6F6;
+    position: absolute;
+    top:116px;
+    left:12px;
+    z-index: -10;
+}
+#kreis {
+  width: 194px;
+  height: 194px;
+  border-radius: 100px;
+  background-color: #FFFFFF;
+  position: absolute;
+  top:177px;
+  left:63px;
+  z-index: -5;
+}
+#rectangleblau {
+    width:295px;
+    height:305px;
+    background:#F4FBFE;
+    position: absolute;
+    top:441px;
+    left:12px;
+    z-index: -10; /*in the Hintergrund*/
+}
+#rectanglespalteblau {
+    width:356px;
+    height:730px;
+    background:#0D88E5;
+    position: absolute;
+    top:23px;
+    left:0px;
+    z-index: 0; /*//Links gehen nicht, wenn dies im Hintergrund ist! Auf 0 lassen!*/
+}
+#Temperatur {
+    position: absolute;
+    top:75px;
+    left:60px; 
+    font-size: 30px;
+    color: #0D88E5;
+}
+#Gewicht {
+    position: absolute;
+    top:600px;
+    left:105px; 
+    font-size: 30px;
+    color: #0D88E5;
+}
+#package {
+    position: absolute;
+    top:460px;
+    left:105px; 
+    font-size: 30px;
+    color: #FFFFFF;
+}
+#letter {
+    position: absolute;
+    top:570px;
+    left:105px; 
+    font-size: 30px;
+    color: #9ECFF4;
+}
+</style>
+</head>
+<body>
+
+<!-- <button type="button" onclick="alert('Hello world!')">Click Me!</button> -->
+<main role="main">
+ <div class="container">
+        <!-- Example row of columns -->
+        <div class="row">
+          <div class="col-md-4"> <!-- //Alle Spalten müssen in Summe 12 sein -->
+            <img src="Einstellungen.png" height="22" width="39" align="left" hspace="0" vspace="23">
+			<div id="rectanglerosa"></div>
+			<div id="kreis">
+      <p id="Temperatur" ><%= temp%></p> <!-- //ID sind wichtig um Objekte bewegenund verändern zu können -->
+      </div>
+			<!-- <img src="/Temperaturanzeige/Temperatur Icon.png" height="47" width="22" align="left" hspace="45" vspace="240"> -->
+			<div id="rectangleblau"></div>
+			<img src="Gewicht Anzeige/Gewicht Icon 2.png" height="209" width="209" align="left" hspace="0" vspace="493">
+      <p id="Gewicht" ><%= weight %></p>
+      </div>
+
+          <div class="col-md-4"> <!-- //Alle Spalten müssen in Summe 12 sein -->
+            <div id="rectanglespalteblau">
+            <img src="Briefkasten.png" id="Brief" height="166,54" width="179,65" align="left" hspace="75" vspace="120">
+      <a href="test2"> <!-- //Link zu nächster Seite -->
+      <img src="Button/button.png" height="101" width="360" align="left" hspace="0" vspace="0">
+      </a>
+			<img src="Button/buttonletter.png" height="101" width="360" align="left"
+			align="left" hspace="0" vspace="10">
+            </div>
+      <p id="package" >Package 1</p>
+      <p id="letter"  >Letter 0</p>
+          </div>
+
+          <div class="col-md-4"> 
+			<img src="Logo.png" height="37" width="186" align="right" hspace="0" 
+			vspace="23">
+			<img src="Open Button.png" id="Wechsel" height="63" width="231" align="left" hspace="60" 
+			vspace="23" onclick="changeImage()"> <!-- //Funktion wird bei Klick aufgerufen! :)  -->
+      <img src="Historybutton.png" id="Wechsel2"  align="left" hspace="0" vspace="30" onclick="changeImage2()"> 
+      
+
+        
+           
+      
+
+
+
+			<img src="Mail Status Button.png" id="Wechsel3" align="left" hspace="0" vspace="0" onclick="changeImage3()">
+ <h2><%= histroy %></h2>
+     <script  type="text/javascript"> //Open Button Ändern bei Klick
+      var gewechselt = false;
+      var newsrc = "Openklick.png";
+      var anfangsscr = "Open Button.png";
+      function changeImage() {
+        if(gewechselt == true){
+        document.getElementById("Wechsel").src = newsrc;
+        gewechselt = false;
+        }else{
+        document.getElementById("Wechsel").src = anfangsscr;
+        gewechselt = true;
+        }
+      }
+      var gewechselt2 = false;
+      var newsrc2 = "HistoryDrop.png";
+      var anfangsscr2 = "Historybutton.png";
+      function changeImage2() {
+        if(gewechselt2 == true){
+        document.getElementById("Wechsel2").src = newsrc2;
+        gewechselt2 = false;
+        }else{
+        document.getElementById("Wechsel2").src = anfangsscr2;
+        gewechselt2 = true;
+        }
+      }
+      var gewechselt3 = false;
+      var newsrc3 = "maildrop.png";
+      var anfangsscr3 = "Mail Status Button.png";
+      function changeImage3() {
+        if(gewechselt3 == true){
+        document.getElementById("Wechsel3").src = newsrc3;
+        gewechselt3 = false;
+        }else{
+        document.getElementById("Wechsel3").src = anfangsscr3;
+        gewechselt3 = true;
+        }
+      }
+      </script>
+
+          </div>
+        </div>
+      </div> <!-- /container -->
+  </main>
+
+
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
