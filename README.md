@@ -41,6 +41,12 @@ Because to the limited time we decided to concentrate to the first point, the Po
 * DHT22 - monitor temperature and humidity of the inside the postbox
 * Barcode Scanner - scan packages to indentify them
 
+
+# VIDEO
+
+[![VIDEO](https://img.youtube.com/vi/hhaLDWfeKhk/0.jpg)](https://www.youtube.com/watch?v=hhaLDWfeKhk)
+
+
 # IMAGES
 
 ## POSTINGO IN MEDICAL COOLING MODE
