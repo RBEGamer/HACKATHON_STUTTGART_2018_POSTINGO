@@ -25,7 +25,7 @@ Because to the limited time we decided to concentrate to the first point, the Po
 # FEATUTRES
 * Automatic control of the Temperature,Humidity of the PostBox to store sensitive good like drugs and fresh food
 * Simple WebUI to show the state of the PostBox (count packages inside, temperature, humidity, weight) 
-* Siimple WebUI to cre<ate package deliveries
+* Simple WebUI to cre<ate package deliveries
 
 # PARTS
 * RPI 3b - Control of the complete postbox
@@ -39,7 +39,7 @@ Because to the limited time we decided to concentrate to the first point, the Po
 * Loadcell - to weight the packages
 * 2x lightgates - to monitor the gate state
 * DHT22 - monitor temperature and humidity of the inside the postbox
-* Barcode Scanner - to scan the packages to indentify them
+* Barcode Scanner - scan packages to indentify them
 
 # IMAGES
 
@@ -49,3 +49,5 @@ Because to the limited time we decided to concentrate to the first point, the Po
 
 ## INSIDE #2
  
+ 
+# VIDEO
