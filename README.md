@@ -1,2 +1,3 @@
 # postingo_
-The Postingo project from the Hackathon Stuttgart
+
+![GitHub Logo](/documentation/postingo_low.png)
