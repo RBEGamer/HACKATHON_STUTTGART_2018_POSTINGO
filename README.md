@@ -6,7 +6,7 @@
 
 
 
-# The Team
+# THE TEAM
 *
 *
 *
@@ -15,6 +15,7 @@
 *
 *
 *
+
 
 # THE [initial] IDEA
 TeamViewer as a Remote Interface, with a Sidebar for controlling all features like:
@@ -30,8 +31,18 @@ TeamViewer as a Remote Interface, with a Sidebar for controlling all features li
 # FEATUTRES
 
 
+# PARTS
+* RPI 3b - Control of the complete postbox
+* Arduino - Controls all actors/sensors through the RPI
+* TeamViwer - System monitoring to the user
+* Heroku - Hosting the backend and the user frontend
+* DC Gear Motor with L295D H Bridge - open/close the front door
 
-
+## SENSORS
+* Loadcell - to weight the packages
+* 2x lightgates - to monitor the gate state
+* DHT22 - monitor temperature and humidity of the inside the postbox
+* Barcode Scanner - to scan the packages to indentify them
 
 # IMAGES
  
