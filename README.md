@@ -43,11 +43,19 @@ Because to the limited time we decided to concentrate to the first point, the Po
 
 # IMAGES
 
-## FINAL Postingo
+## POSTINGO IN MEDICAL COOLING MODE
+ ![GitHub Logo](/documentation/DSC02694.JPG)
+## ELECTRIC no.1
+ ![GitHub Logo](/documentation/DSC02689.JPG)
 
-## INSIDE #1
+## ELECTRIC no.2
+![GitHub Logo](/documentation/DSC02706.JPG)
 
-## INSIDE #2
- 
+## WITH PACAKGE
+![GitHub Logo](/documentation/DSC02753.JPG)
+
+## SAMPLE KEYCARD
+![GitHub Logo](/documentation/DSC02766.JPG)
+
  
 # VIDEO
