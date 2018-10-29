@@ -41,13 +41,27 @@ Because to the limited time we decided to concentrate to the first point, the Po
 * DHT22 - monitor temperature and humidity of the inside the postbox
 * Barcode Scanner - scan packages to indentify them
 
+
+# VIDEO
+
+[![VIDEO](https://img.youtube.com/vi/hhaLDWfeKhk/0.jpg)](https://www.youtube.com/watch?v=hhaLDWfeKhk)
+
+
 # IMAGES
 
-## FINAL Postingo
+## POSTINGO IN MEDICAL COOLING MODE
+ ![GitHub Logo](/documentation/img/DSC02694.JPG)
+## ELECTRIC no.1
+ ![GitHub Logo](/documentation/img/DSC02689.JPG)
 
-## INSIDE #1
+## ELECTRIC no.2
+![GitHub Logo](/documentation/img/DSC02706.JPG)
 
-## INSIDE #2
- 
+## WITH PACAKGE
+![GitHub Logo](/documentation/img/DSC02753.JPG)
+
+## SAMPLE KEYCARD
+![GitHub Logo](/documentation/img/DSC02766.JPG)
+
  
 # VIDEO
