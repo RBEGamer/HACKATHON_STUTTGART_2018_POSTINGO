@@ -38,6 +38,7 @@ Because to the limited time we decided to concentrate to the first point, the Po
 * TeamViwer - System monitoring to the user
 * Heroku - Hosting the backend and the user frontend
 * DC Gear Motor with L295D H Bridge - open/close the front door
+* Fan - to cool down the inside
 
 ## SENSORS
 * Loadcell - to weight the packages
@@ -46,4 +47,10 @@ Because to the limited time we decided to concentrate to the first point, the Po
 * Barcode Scanner - to scan the packages to indentify them
 
 # IMAGES
+
+## FINAL Postingo
+
+## INSIDE #1
+
+## INSIDE #2
  
