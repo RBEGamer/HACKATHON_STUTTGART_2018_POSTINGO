@@ -44,18 +44,18 @@ Because to the limited time we decided to concentrate to the first point, the Po
 # IMAGES
 
 ## POSTINGO IN MEDICAL COOLING MODE
- ![GitHub Logo](/documentation/DSC02694.JPG)
+ ![GitHub Logo](/documentation/img/DSC02694.JPG)
 ## ELECTRIC no.1
- ![GitHub Logo](/documentation/DSC02689.JPG)
+ ![GitHub Logo](/documentation/img/DSC02689.JPG)
 
 ## ELECTRIC no.2
-![GitHub Logo](/documentation/DSC02706.JPG)
+![GitHub Logo](/documentation/img/DSC02706.JPG)
 
 ## WITH PACAKGE
-![GitHub Logo](/documentation/DSC02753.JPG)
+![GitHub Logo](/documentation/img/DSC02753.JPG)
 
 ## SAMPLE KEYCARD
-![GitHub Logo](/documentation/DSC02766.JPG)
+![GitHub Logo](/documentation/img/DSC02766.JPG)
 
  
 # VIDEO
