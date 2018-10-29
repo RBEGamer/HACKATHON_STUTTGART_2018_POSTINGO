@@ -31,6 +31,7 @@ Because to the limited time we decided to concentrate to the first point, the Po
 
 # FEATUTRES
 * Automatic control of the Temperature,Humidity of the PostBox to store sensitive good like drugs and fresh food
+* Simple WebUI to show the state of the PostBox (count packages inside, temperature, humidity, weight) 
 
 # PARTS
 * RPI 3b - Control of the complete postbox
