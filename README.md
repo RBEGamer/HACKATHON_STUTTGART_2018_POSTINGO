@@ -4,16 +4,6 @@
 
 
 
-# THE TEAM
-*
-*
-*
-*
-*
-*
-*
-*
-
 
 # THE [initial] IDEA
 TeamViewer as a Remote Interface, with a Sidebar for controlling all features like:
