@@ -22,6 +22,7 @@ TeamViewer as a Remote Interface, with a Sidebar for controlling all features li
 * A SmartPostBox (with OpenCV for identification, able to open up, with Notification)
 * A Home/holiday home smart Interface (security system, watering, video surveillance (opencv zones))
 * A Server Room surveillance (power consumption, video surveillance (opencv zones)), Hardware trigger
+Because to the limited time we decided to concentrate to the first point, the PostBox.
 
 
 
@@ -29,7 +30,7 @@ TeamViewer as a Remote Interface, with a Sidebar for controlling all features li
 
 
 # FEATUTRES
-
+* Automatic control of the Temperature,Humidity of the PostBox to store sensitive good like drugs and fresh food
 
 # PARTS
 * RPI 3b - Control of the complete postbox
