@@ -54,4 +54,11 @@ Because to the limited time we decided to concentrate to the first point, the Po
 ![GitHub Logo](/documentation/img/DSC02766.JPG)
 
  
+# API
+
+## SET PACKAGE DELIVERY STATE
+![GitHub Logo](/documentation/img/api_set_package_state.png)
+
+## SET/GET POSTINGO STATE
+![GitHub Logo](/documentation/img/api_set_postingo_state.png)
 
