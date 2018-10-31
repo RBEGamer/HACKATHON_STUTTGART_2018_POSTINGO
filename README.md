@@ -33,7 +33,7 @@ Because to the limited time we decided to concentrate to the first point, the Po
 
 
 # VIDEO
-
+CLICK THE IMAGE (YouTube)
 [![VIDEO](https://img.youtube.com/vi/hhaLDWfeKhk/0.jpg)](https://www.youtube.com/watch?v=hhaLDWfeKhk)
 
 
